@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 import requests
 import time
-API_KEY = "83c6218deaf64aa3d79951164b49c343"
+
 
 def fetch_poster(movie_id):
     url = f"https://api.themoviedb.org/3/movie/{movie_id}?api_key={API_KEY}&language=en-US"
